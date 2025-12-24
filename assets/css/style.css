@@ -547,9 +547,9 @@ main { flex-grow: 1; }
 
 .search-submit{
   position: absolute;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
   width: 48px;
   display: grid;
   place-items: center;
