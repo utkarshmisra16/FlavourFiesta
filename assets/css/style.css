@@ -332,6 +332,21 @@ main { flex-grow: 1; }
   padding-inline: 16px;
 }
 
+.grid-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
+  gap: 12px 8px;
+}
+
+.img-holder{
+  background-color: var(--image-background);
+  background-image: url("../images/image-placeholder.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  overflow: hidden;
+}
+
 
 
 /*-----------------------------------*\
